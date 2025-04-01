@@ -33,6 +33,40 @@
                 </div>
             </div>
         </div>
+
+        <!-- Formulário para adicionar novos veiculos -->
+        <div class="row same-height-row">
+            <div class="cod-md-6">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h4>Adicionar novo veículo</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="post" class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <label for="modelo" class="form-label">Modelo:</label>
+                                <input type="text" class="form-control" name="modelo" required>
+                                <div class="invalid-feedback">
+                                    Informe um modelo válido"
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Placa:</label>
+                                <input type="text" class="form-control" name="placa" required>
+                                <div class="invalid-feedback">
+                                    Informe uma placa válida"
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label"></label>
+                                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     
 </body>
