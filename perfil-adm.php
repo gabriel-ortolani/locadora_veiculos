@@ -36,7 +36,7 @@
 
         <!-- Formulário para adicionar novos veiculos -->
         <div class="row same-height-row">
-            <div class="cod-md-6">
+            <div class="col-md-6">
                 <div class="card h-100">
                     <div class="card-header">
                         <h4>Adicionar novo veículo</h4>
