@@ -90,8 +90,8 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="" class="input-label">Quantidade de dias</label>
-                                <input type="number" class="form-control" required>
+                                <label for="quantidade" class="form-label">Quantidade de dias</label>
+                                <input type="number" name="quantidade" class="form-control" required>
                             </div>
                             <button type="button" class="btn btn-success w-100">Calcular</button>
                         </form>
