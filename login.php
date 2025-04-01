@@ -39,7 +39,7 @@
                     <div class="mb-3 position-relative">
                         <label for="password" class="form-label">Senha:</label>
                         <input type="password" placeholder="Digite sua senha" name="password" class="form-control" id="password" require>
-                        <span class="password-toggle mt-3" onclick="togglePassword()"><i class="bi bi-eye"></i></span>
+                        <span class="password-toggle mt-3" onclick="togglePassword()"><i class="bi bi-eye-slash-fill"></i></span>
                     </div>
                     <button type="submit" class="btn btn-success w-100">Entrar</button>
                 </form>
@@ -51,6 +51,11 @@
         function togglePassword(){
             let passwordInput = document.getElementById('password');
             passwordInput.type = (passwordInput.type === 'password') ? 'text' : 'password'
+            if(passwordInput == 'password'){
+                passwordInput.classList.replace('bi bi-eye-slash-fill', 'bi bi-eye')
+            }else{
+                passwordInput.classList.replace('bi bi-eye', 'bi bi-eye-slash-fill')
+            }
         }
     </script>
 </body>
