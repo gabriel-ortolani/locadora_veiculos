@@ -51,22 +51,24 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="" class="form-label">Placa:</label>
+                                <label for="placa" class="form-label">Placa:</label>
                                 <input type="text" class="form-control" name="placa" required>
                                 <div class="invalid-feedback">
                                     Informe uma placa válida"
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="" class="form-label"></label>
-                                
+                                <label for="tipo" class="form-label">Tipo:</label>
+                                <select name="tipo" class="form-select" id="tipo" required>
+                                    <option value="">Carro</option>
+                                    <option value="">Moto</option>
+                                </select>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
     
 </body>
