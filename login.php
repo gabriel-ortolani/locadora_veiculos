@@ -14,6 +14,13 @@
             max-width: 400px;
             margin: 100px auto;
         }
+        .password-toggle{
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
     </style>
 </head>
 <body class="bg-light">
