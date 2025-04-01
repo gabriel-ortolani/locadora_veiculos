@@ -62,8 +62,38 @@
                                 <select name="tipo" class="form-select" id="tipo" required>
                                     <option value="">Carro</option>
                                     <option value="">Moto</option>
+                                    <option value="">Helicoptero</option>
+                                    <option value="">Avião</option>
+                                    <option value="">barco</option>
+                                    <option value="">submarino</option>
                                 </select>
                             </div>
+                            <button class="btn btn-success w-100" type="submit" name="adicionar">Adicionar veículo</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h4 class="mb-0">
+                            Calculadora a previsão de aluguel
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="post" class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <label for="" class="input-label">Tipo de veículo:</label>
+                                <select class="form-select" name="" id="" required>
+                                    <option value="carro">Carro</option>
+                                    <option value="moto">Moto</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="input-label">Quantidade de dias</label>
+                                <input type="number" class="form-control" required>
+                            </div>
+                            <button type="button" class="btn btn-success w-100">Calcular</button>
                         </form>
                     </div>
                 </div>
