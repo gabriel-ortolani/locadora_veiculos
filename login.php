@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Login</title>
     <style>
-
+        .login-container{
+            max-width: 400px;
+            margin: 100px auto;
+        }
     </style>
 </head>
 <body class="bg-light">
@@ -36,5 +39,12 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function togglePassword(){
+            let passwordInput = document.getElementById('password');
+            passwordInput.type = (passwordInput.type === 'password') ? 'text' : 'password'
+        }
+    </script>
 </body>
 </html>
