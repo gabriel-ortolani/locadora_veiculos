@@ -22,11 +22,16 @@
 
             <div class="card-body">
                 <form action="post" class="needs-validation" novalidate>
-                    <label for="">Email:</label><br>
-                    <input type="text" placeholder="Digite seu Email"><br>
-                    <label for="">Senha:</label><br>
-                    <input type="password" placeholder="Digite sua senha"><br>
-                    <button type="submit" class="btn">Entrar</button><br>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Usuario:</label>
+                        <input type="text" placeholder="Digite seu usuario" name="username" class="form-control" require autocomplete="off">
+                    </div>
+                    <div class="mb-3 position-relative">
+                        <label for="password" class="form-label">Senha:</label>
+                        <input type="password" placeholder="Digite sua senha" name="password" class="form-control" id="password" require>
+                        <span class="password-toggle mt-3" onclick="togglePassword()"><i class="bi bi-eye"></i></span>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Entrar</button>
                 </form>
             </div>
         </div>
