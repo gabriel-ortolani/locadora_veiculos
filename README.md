@@ -36,4 +36,7 @@ Este projeto é uma aplicação web para uma locadora de veículos, desenvolvido
   - 🗑️ Deletar veículos  
   - 🚗 Alugar veículos disponíveis  
   - 🔄 Devolver veículos alugados  
-- Controle total sobre o inventário  
+- Controle total sobre o inventário
+
+### 👁️‍🗨️ Observações
+O sistema ainda não conta com back-end, por ser especificamente para aprendizado font-end embora já tenha partes pensadas para a implementação do back-end.
