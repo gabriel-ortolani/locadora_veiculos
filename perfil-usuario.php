@@ -72,7 +72,7 @@
                         </h4>
                     </div>
                     <div class="card-body">
-                       <h4>Alugue agora mesmo um Submarino Classe Los Angeles de 200 dolares por apenas 150, corra as vagas são limitadas</h4>
+                       <h4>Alugue agora mesmo um Submarino Classe Los Angeles de 200 dolares por apenas 150, corra a vaga é limitada</h4>
                     </div>
                 </div>
             </div>
@@ -95,10 +95,11 @@
                                     <th>Modelo</th>
                                     <th>Placa</th>
                                     <th>Status</th>
+                                    <th>Ações</th>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Carro</td>
+                                        <td>Carro<buttom class="btn" data-bs-toggle="modal" data-bs-target="#uno"><i class="bi bi-info-circle"></i></buttom></td>
                                         <td>Uno</td>
                                         <td>ABC1D34</td>
                                         <td>
@@ -106,25 +107,37 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>Submarino</td>
+                                        <td>Submarino<buttom class="btn" data-bs-toggle="modal" data-bs-target="#submarino"><i class="bi bi-info-circle"></i></buttom></td>
                                         <td>Classe Los Angeles</td>
                                         <td>SSN-688</td>
                                         <td>
                                             <span class="badge bg-success">Disponível</span>
                                         </td>
+                                        <td>
+                                            <div class="rent-group">
+                                                <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                <button class="btn btn-primary" type="submit" name="alugar" data-bs-toggle="modal" data-bs-target="#alugar">Alugar</button>
+                                            </div>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>Avião</td>
+                                        <td>Avião<buttom class="btn" data-bs-toggle="modal" data-bs-target="#aviao"><i class="bi bi-info-circle"></i></buttom></td>
                                         <td>Boeing 737</td>
                                         <td>PR-AZD</td>
                                         <td>
                                             <span class="badge bg-success">Disponível</span>
                                         </td>
+                                        <td>
+                                            <div class="rent-group">
+                                                <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                <button class="btn btn-primary" type="submit" name="alugar" data-bs-toggle="modal" data-bs-target="#alugar">Alugar</button>
+                                            </div>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>Barco</td>
+                                        <td>Barco<buttom class="btn" data-bs-toggle="modal" data-bs-target="#titanic"><i class="bi bi-info-circle"></i></buttom></td>
                                         <td>Titanic</td>
-                                        <td>EDC-1234</td>
+                                        <td>131428</td>
                                         <td>
                                             <span class="badge bg-danger">Afundado</span>
                                         </td>
@@ -137,6 +150,154 @@
             </div>
         </div>
     </div>
+
+    <div class="modal" tabindex="-1" id="uno">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Uno - Carro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Cor: Braco;<br>
+                        Placa: ABC1D34;<br>
+                        Marca/Modelo: Uno;<br>
+                        Ano de fabricação/modelo:2016;<br>
+                        Status do licenciamento: Regular;<br>
+                        Última vistoria: 3/03/2025;<br>
+                        Responsável: Josemar Jair O justo;<br>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="submarino">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Classe Los Angeles - Submarino</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Cor: Cinza Escuro;<br>
+                        Código de Registro: SSN-688;<br>
+                        Modelo: Classe Los Angeles;<br>
+                        Ano de fabricação/modelo: 2020;<br>
+                        Status do licenciamento: Ativo;<br>
+                        Última vistoria: 12/01/2025;<br>
+                        Responsável: Capitão Jonas Barreto;<br>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="aviao">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Boeing 737 - Avião</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Cor: Branco com azul;<br>
+                        Registro: PR-AZD<br>
+                        Modelo: Boeing 737;<br>
+                        Ano de fabricação/modelo: 2018;<br>
+                        Status do licenciamento: Regularizado;<br>
+                        Última vistoria: 21/02/2025;<br>
+                        Responsável: Comandante Luana Reis;<br>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="titanic">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Titanic - Transatlântico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Cor: Preto com detalhes brancos e amarelos;<br>
+                        Registro: 131428;<br>
+                        Modelo: Olympic-class ocean liner;<br>
+                        Ano de fabricação/modelo: 1912;<br>
+                        Status do licenciamento: Naufragado;<br>
+                        Última vistoria: Abril de 1912;<br>
+                        Responsável: Capitão Edward John Smith;<br>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="alugar">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Formulario de emprestimo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <form action="post" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="modelo" class="form-label">Email:</label>
+                        <input type="email" class="form-control" name="email" required>
+                        <div class="invalid-feedback">
+                            Informe um email válido"
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="CPF" class="form-label">CPF:</label>
+                        <input type="number" class="form-control" name="placa" required>
+                        <div class="invalid-feedback">
+                            Informe um CPF válido"
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="CPF" class="form-label">tel:</label>
+                        <input type="text" class="form-control" name="telefone" required>
+                        <div class="invalid-feedback">
+                            Informe um telefone válido"
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="CEP" class="form-label">CEP:</label>
+                        <input type="number" class="form-control" name="placa" required>
+                        <div class="invalid-feedback">
+                            Informe um CEP válido"
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-success w-100" type="submit" name="adicionar">Alugar veiculo</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
