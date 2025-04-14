@@ -19,9 +19,14 @@
     gap: 0.5rem;
     order: 2;
 }
-
 .days-input{
     width: 60px !important;
+}
+.error{
+    color: red;
+}
+.accept{
+    color: rgb(1, 92, 1);
 }
 
 @media (max-width: 768px){

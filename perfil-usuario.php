@@ -66,13 +66,13 @@
 
             <div class="col-md-6">
                 <div class="card h-100">
-                    <div class="card-header">
+                    <div class="card-header bg-warning">
                         <h4 class="mb-0">
-                            Oferta imperdivel
+                            <span class="accept">Oferta imperdivel</span>🌠
                         </h4>
                     </div>
                     <div class="card-body">
-                       <h4>Alugue agora mesmo um Submarino Classe Los Angeles de 200 dolares por apenas 150, corra a vaga é limitada</h4>
+                       <h4>Alugue agora mesmo um Submarino Classe Los Angeles♒<br> de <span class="error">200 dolares</span> por <span class="accept">apenas 150</span>, corra a vaga é <span class="error">limitada</span>🔐</h4>
                     </div>
                 </div>
             </div>
@@ -167,6 +167,7 @@
                         Status do licenciamento: Regular;<br>
                         Última vistoria: 3/03/2025;<br>
                         Responsável: Josemar Jair O justo;<br>
+                        preço: <span class="accept">$100 p/dia;</span>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -192,6 +193,7 @@
                         Status do licenciamento: Ativo;<br>
                         Última vistoria: 12/01/2025;<br>
                         Responsável: Capitão Jonas Barreto;<br>
+                        preço: <span class="accept">$150 p/dia (oferta exclusiva);</span>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -217,6 +219,7 @@
                         Status do licenciamento: Regularizado;<br>
                         Última vistoria: 21/02/2025;<br>
                         Responsável: Comandante Luana Reis;<br>
+                        preço: <span class="accept">$300 p/dia</span>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -242,6 +245,7 @@
                         Status do licenciamento: Naufragado;<br>
                         Última vistoria: Abril de 1912;<br>
                         Responsável: Capitão Edward John Smith;<br>
+                        preço: <span class="error">inoperante</span>;
                     </p>
                 </div>
                 <div class="modal-footer">
