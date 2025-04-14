@@ -129,7 +129,7 @@
                                         <td>Uno</td>
                                         <td>ABC1D34</td>
                                         <td>
-                                            <span class="badge bg-success">Alugado</span>
+                                            <span class="badge bg-warning">Alugado</span>
                                         </td>
                                         <td>
                                             <div class="action-wrapper">
